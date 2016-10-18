@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32FDD9A1DB5AEBF0064309D /* SignUpCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FDD991DB5AEBF0064309D /* SignUpCode.swift */; };
 		A33A24A31DB0B41B00C252A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A24A21DB0B41B00C252A7 /* AppDelegate.swift */; };
 		A33A24A51DB0B41B00C252A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A24A41DB0B41B00C252A7 /* ViewController.swift */; };
 		A33A24A81DB0B41B00C252A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33A24A61DB0B41B00C252A7 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A32FDD991DB5AEBF0064309D /* SignUpCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpCode.swift; sourceTree = "<group>"; };
 		A33A249F1DB0B41B00C252A7 /* DropboxHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33A24A21DB0B41B00C252A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A33A24A41DB0B41B00C252A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		A32B031A1DB5998700F3889D /* ViewControllersCode */ = {
 			isa = PBXGroup;
 			children = (
+				A32FDD991DB5AEBF0064309D /* SignUpCode.swift */,
 			);
 			name = ViewControllersCode;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A33A24A51DB0B41B00C252A7 /* ViewController.swift in Sources */,
+				A32FDD9A1DB5AEBF0064309D /* SignUpCode.swift in Sources */,
 				A33A24A31DB0B41B00C252A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

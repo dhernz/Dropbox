@@ -130,7 +130,7 @@
                                 <frame key="frameInset" minY="551" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="e9f-0x-pPw" kind="push" id="XXc-96-Ji0"/>
+                                    <segue destination="e9f-0x-pPw" kind="push" id="HHO-P5-cWM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49l-Jg-3bF">
@@ -146,10 +146,10 @@
             </objects>
             <point key="canvasLocation" x="3671.1999999999998" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--SiginInViewController-->
         <scene sceneID="cLF-oV-CV0">
             <objects>
-                <viewController id="e9f-0x-pPw" sceneMemberID="viewController">
+                <viewController title="SiginInViewController" id="e9f-0x-pPw" customClass="SignUpCode" customModule="DropboxHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vpV-oB-oPN"/>
                         <viewControllerLayoutGuide type="bottom" id="bI5-Pe-kPj"/>
@@ -162,14 +162,28 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RG7-UY-Sbv">
+                                <frame key="frameInset" minX="8" minY="34" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCE-Zc-O50">
+                                <frame key="frameInset" minX="12" minY="34" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="SignInGoBack:" destination="e9f-0x-pPw" eventType="touchUpInside" id="473-q5-xqo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="zto-vc-RaQ"/>
+                    <connections>
+                        <outlet property="SignInGoBack" destination="RG7-UY-Sbv" id="oSb-e1-9Gy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Aa-EW-pYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4681" y="139"/>
+            <point key="canvasLocation" x="4680.8000000000002" y="138.98050974512745"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Zic-HX-fXT">
@@ -460,10 +474,10 @@
             </objects>
             <point key="canvasLocation" x="3671" y="896"/>
         </scene>
-        <!--View Controller-->
+        <!--LogInViewController-->
         <scene sceneID="Qy1-kc-YTK">
             <objects>
-                <viewController id="eig-Hx-W18" sceneMemberID="viewController">
+                <viewController title="LogInViewController" id="eig-Hx-W18" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IqO-br-OLM"/>
                         <viewControllerLayoutGuide type="bottom" id="wrj-pv-L5n"/>
