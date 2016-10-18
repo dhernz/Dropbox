@@ -22,11 +22,5 @@ class AgreeTermsViewController: UIViewController {
     }
     
 
-   
-    @IBAction func didAgreeTerms(_ sender: AnyObject) {
-        
-        dismiss(animated: true, completion: nil);
-        
-    }
 
 }
