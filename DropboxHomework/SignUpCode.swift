@@ -12,11 +12,6 @@ class SignUpCode: UIViewController {
 
     
     
-    @IBAction func SignInGoBack(_ sender: UIButton) {
-        
-        navigationController!.popViewController(animated: true)
-        
-    }
     
     
     override func viewDidLoad() {
