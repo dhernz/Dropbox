@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3292E251DB5F0CF00B2E39A /* TermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3292E241DB5F0CF00B2E39A /* TermViewController.swift */; };
+		A3292E271DB5F62400B2E39A /* AgreeTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3292E261DB5F62400B2E39A /* AgreeTermsViewController.swift */; };
 		A33A24A31DB0B41B00C252A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A24A21DB0B41B00C252A7 /* AppDelegate.swift */; };
 		A33A24A51DB0B41B00C252A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33A24A41DB0B41B00C252A7 /* ViewController.swift */; };
 		A33A24A81DB0B41B00C252A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33A24A61DB0B41B00C252A7 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		A3292E241DB5F0CF00B2E39A /* TermViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermViewController.swift; sourceTree = "<group>"; };
+		A3292E261DB5F62400B2E39A /* AgreeTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreeTermsViewController.swift; sourceTree = "<group>"; };
 		A33A249F1DB0B41B00C252A7 /* DropboxHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33A24A21DB0B41B00C252A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A33A24A41DB0B41B00C252A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				A3292E241DB5F0CF00B2E39A /* TermViewController.swift */,
+				A3292E261DB5F62400B2E39A /* AgreeTermsViewController.swift */,
 			);
 			name = ViewControllersCode;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				A3292E251DB5F0CF00B2E39A /* TermViewController.swift in Sources */,
 				A33A24A51DB0B41B00C252A7 /* ViewController.swift in Sources */,
 				A33A24A31DB0B41B00C252A7 /* AppDelegate.swift in Sources */,
+				A3292E271DB5F62400B2E39A /* AgreeTermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
